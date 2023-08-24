@@ -89,3 +89,18 @@ while (count < 10) {
   i += 2;
   count++;
 }
+// Task 5: Calculate the factorial of a positive integer using a while loop
+
+
+function calculateFactorial(num: number): number {
+  var factorial: number = 1;
+  var i: number = 1;
+  while (i <= num) {
+    factorial *= i;
+    i++;
+  }
+  return factorial;
+}
+
+var f = calculateFactorial(3)
+console.log(f);
