@@ -52,3 +52,9 @@ function printCart() {
 addItem("Apple", 3);
 addItem("Orange", 12);
 printCart();
+// Task 3: Print the first 25 integers using a while loop
+var i = 1;
+while (i <= 25) {
+    console.log(i);
+    i++;
+}
