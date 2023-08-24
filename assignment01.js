@@ -58,3 +58,11 @@ while (i <= 25) {
     console.log(i);
     i++;
 }
+// Task 4: Print the first 10 even numbers using a while loop
+var i = 2;
+var count = 0;
+while (count < 10) {
+    console.log(i);
+    i += 2;
+    count++;
+}
