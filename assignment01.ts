@@ -104,3 +104,18 @@ function calculateFactorial(num: number): number {
 
 var f = calculateFactorial(3)
 console.log(f);
+// Task 6: Remove negative numbers from an array
+
+
+function removeNegativeNumbers(numbers: number[]): void {
+  var i: number = 0;
+  while (i < numbers.length) {
+    if (numbers[i] < 0) {
+      numbers.splice(i, 1);
+    } else {
+      i++;
+    }
+  }
+}
+
+removeNegativeNumbers([1,2,3,4,-4,-6,21,10])
