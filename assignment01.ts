@@ -149,3 +149,4 @@ while (i < temperaturesInCelsius.length) {
   i++;
 }
 console.log("Converted temperatures:", convertedTemperatures);
+
