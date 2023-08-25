@@ -136,3 +136,16 @@ function calculateSum(numbers: number[]): number {
 
 var sum = calculateSum([1,2,3,4,5,6,7]);
 console.log(sum);
+// Task 8: Convert Celsius temperatures to Fahrenheit using a while loop
+
+
+var temperaturesInCelsius: number[] = [25, 30, 15, 20];
+var convertedTemperatures: number[] = [];
+var i: number = 0;
+while (i < temperaturesInCelsius.length) {
+  var celsius: number = temperaturesInCelsius[i];
+  var fahrenheit: number = (celsius * 9/5) + 32;
+  convertedTemperatures.push(fahrenheit);
+  i++;
+}
+console.log("Converted temperatures:", convertedTemperatures);
