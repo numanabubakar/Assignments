@@ -119,3 +119,20 @@ function removeNegativeNumbers(numbers: number[]): void {
 }
 
 removeNegativeNumbers([1,2,3,4,-4,-6,21,10])
+
+
+// Task 7: Calculate the sum of all numbers in an array using a while loop
+
+
+function calculateSum(numbers: number[]): number {
+  var sum: number = 0;
+  var i: number = 0;
+  while (i < numbers.length) {
+    sum += numbers[i];
+    i++;
+  }
+  return sum;
+}
+
+var sum = calculateSum([1,2,3,4,5,6,7]);
+console.log(sum);
