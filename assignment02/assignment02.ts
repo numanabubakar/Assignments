@@ -34,3 +34,47 @@ for (var i =0; i< numbers.length ; i++) {
   }
 } 
 console.log(numbers);
+
+// 4. Write a program that defines a function to calculate the area of a circle. The function should take the radius as input and return the calculated area.
+
+
+function calculateArea(radius: number): number {
+  const area = 3.14 * (radius * radius);
+  return area;
+}
+
+const radius = 5;
+const area = calculateArea(radius);
+console.log(`The area of the circle is: ${area}`);
+
+
+// 5. Develop a program that reads a list of grades and uses the splice method to remove failing grades (below 50) from the array.
+
+
+const grades: number[] = [80, 90, 40, 60, 50, 75, 30, 70];
+
+for (let i = 0; i < grades.length; i++) {
+  if (grades[i] < 50) {
+    grades.splice(i, 1);
+  }
+}
+
+console.log("Passing grades:", grades);
+
+
+//6 Write a program that uses a function to find the largest element in an array of numbers.
+
+
+function findLargest(numbers: number[]): number {
+  let largest = numbers[0];
+  for (let i =0;i<numbersArr.length;i++) {
+    if (numbersArr[i] > largest) {
+      largest = numbersArr[i];
+    }
+  }
+  return largest;
+}
+
+const numbersArr: number[] = [10, 5, 20, 8, 15];
+const largestNumber = findLargest(numbersArr);
+console.log("The largest number is:", largestNumber);
