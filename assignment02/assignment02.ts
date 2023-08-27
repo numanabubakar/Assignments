@@ -48,7 +48,7 @@ const area = calculateArea(radius);
 console.log(`The area of the circle is: ${area}`);
 
 
-// 5. Develop a program that reads a list of grades and uses the splice method to remove failing grades (below 50) from the array.
+// 5. Develop a program that reads a list of grades and uses the splice method to remove failing grades (below 50) from the array
 
 
 const grades: number[] = [80, 90, 40, 60, 50, 75, 30, 70];
