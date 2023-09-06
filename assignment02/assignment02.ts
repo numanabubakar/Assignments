@@ -3,7 +3,7 @@
 
 
 
-function sumOfEvenNumbers(n: number): number {
+function sumOfEvenNumber(n: number): number {
   let sum = 0;
   for (let i = 1; i <= n; i++) {
     sum += 2 * i;
@@ -12,7 +12,7 @@ function sumOfEvenNumbers(n: number): number {
 }
 
 const n = 5;
-const sum = sumOfEvenNumbers(n);
+const sum = sumOfEvenNumber(n);
 console.log(`The sum of the first ${n} even numbers is: ${sum}`);
 
 // 2. Implement a program that uses a for loop to iterate through an array of numbers and print only the even numbers.
