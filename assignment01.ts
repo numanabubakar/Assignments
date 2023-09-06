@@ -140,13 +140,13 @@ console.log(sum);
 
 
 var temperaturesInCelsius: number[] = [25, 30, 15, 20];
-var convertedTemperatures: number[] = [];
+var convertedTemperature: number[] = [];
 var i: number = 0;
 while (i < temperaturesInCelsius.length) {
   var celsius: number = temperaturesInCelsius[i];
   var fahrenheit: number = (celsius * 9/5) + 32;
-  convertedTemperatures.push(fahrenheit);
+  convertedTemperature.push(fahrenheit);
   i++;
 }
-console.log("Converted temperatures:", convertedTemperatures);
+console.log("Converted temperatures:", convertedTemperature);
 
