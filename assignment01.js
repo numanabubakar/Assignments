@@ -92,7 +92,7 @@ function removeNegativeNumbers(numbers) {
 }
 removeNegativeNumbers([1, 2, 3, 4, -4, -6, 21, 10]);
 // Task 7: Calculate the sum of all numbers in an array using a while loop
-function calculateSum(numbers) {
+function calculatesSum(numbers) {
     var sum = 0;
     var i = 0;
     while (i < numbers.length) {
@@ -101,16 +101,16 @@ function calculateSum(numbers) {
     }
     return sum;
 }
-var sum = calculateSum([1, 2, 3, 4, 5, 6, 7]);
+var sum = calculatesSum([1, 2, 3, 4, 5, 6, 7]);
 console.log(sum);
 // Task 8: Convert Celsius temperatures to Fahrenheit using a while loop
 var temperaturesInCelsius = [25, 30, 15, 20];
-var convertedTemperatures = [];
+var convertedTemperature = [];
 var i = 0;
 while (i < temperaturesInCelsius.length) {
     var celsius = temperaturesInCelsius[i];
     var fahrenheit = (celsius * 9 / 5) + 32;
-    convertedTemperatures.push(fahrenheit);
+    convertedTemperature.push(fahrenheit);
     i++;
 }
-console.log("Converted temperatures:", convertedTemperatures);
+console.log("Converted temperatures:", convertedTemperature);

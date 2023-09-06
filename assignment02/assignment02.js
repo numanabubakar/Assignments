@@ -1,6 +1,6 @@
 "use strict";
 // 1. Develop a program that calculates and prints the sum of the first n even numbers using a for loop
-function sumOfEvenNumbers(n) {
+function sumOfEvenNumber(n) {
     let sum = 0;
     for (let i = 1; i <= n; i++) {
         sum += 2 * i;
@@ -8,7 +8,7 @@ function sumOfEvenNumbers(n) {
     return sum;
 }
 const n = 5;
-const sum = sumOfEvenNumbers(n);
+const sum = sumOfEvenNumber(n);
 console.log(`The sum of the first ${n} even numbers is: ${sum}`);
 // 2. Implement a program that uses a for loop to iterate through an array of numbers and print only the even numbers.
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -33,13 +33,13 @@ const radius = 5;
 const area = calculateArea(radius);
 console.log(`The area of the circle is: ${area}`);
 // 5. Develop a program that reads a list of grades and uses the splice method to remove failing grades (below 50) from the array
-const grades = [80, 90, 40, 60, 50, 75, 30, 70];
-for (let i = 0; i < grades.length; i++) {
-    if (grades[i] < 50) {
-        grades.splice(i, 1);
+const grade = [80, 90, 40, 60, 50, 75, 30, 70];
+for (let i = 0; i < grade.length; i++) {
+    if (grade[i] < 50) {
+        grade.splice(i, 1);
     }
 }
-console.log("Passing grades:", grades);
+console.log("Passing grade:", grade);
 //6 Write a program that uses a function to find the largest element in an array of numbers.
 function findLargest(numbers) {
     let largest = numbers[0];
