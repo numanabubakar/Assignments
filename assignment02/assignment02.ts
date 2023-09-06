@@ -51,15 +51,15 @@ console.log(`The area of the circle is: ${area}`);
 // 5. Develop a program that reads a list of grades and uses the splice method to remove failing grades (below 50) from the array
 
 
-const grades: number[] = [80, 90, 40, 60, 50, 75, 30, 70];
+const grade: number[] = [80, 90, 40, 60, 50, 75, 30, 70];
 
-for (let i = 0; i < grades.length; i++) {
-  if (grades[i] < 50) {
-    grades.splice(i, 1);
+for (let i = 0; i < grade.length; i++) {
+  if (grade[i] < 50) {
+    grade.splice(i, 1);
   }
 }
 
-console.log("Passing grades:", grades);
+console.log("Passing grade:", grade);
 
 
 //6 Write a program that uses a function to find the largest element in an array of numbers.
